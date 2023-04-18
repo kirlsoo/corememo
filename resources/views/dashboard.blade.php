@@ -13,23 +13,9 @@
                 </div>
             </div>
 
-            <div class="p-6 text-gray-900 dark:text-gray-100">
-                <table class="table-fixed border border-black">
-                    <thead>
-                        {{ __("April") }}
-                    </thead>
-                    <tr class="p-10 m-10 border-black">
-                        <td class="p-10 m-10 border-black">1                
-                             <x-post>
-                            </x-post>
-                        </td>
-                        <td class="p-10 m-10 border-black">2</td>
-                        <td class="p-10 m-10 border-black">3</td>
-                        <td class="p-10 m-10 border-black">4</td>
-                        <td class="p-10 m-10 border-black">5</td>
-                        <td class="p-10 m-10 border-black">6</td>
-                        <td class="p-10 m-10 border-black">7</td>
-                    </tr>
+            <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
+                <x-post>
+                </x-post>
             </div>
         </div>
     </div>
